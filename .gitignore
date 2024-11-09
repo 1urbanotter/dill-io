@@ -1,11 +1,11 @@
-# Node.js dependencies
-node_modules/
+# Ignore Firebase configuration
+firebaseconfig.js
 
-# Environment variables (local configuration files for secrets)
+# Ignore environment variables file
 .env
 
-# Firebase configuration (if you have firebaseconfig.js locally and it's sensitive)
-firebaseconfig.js
+# Node.js dependencies
+node_modules/
 
 # Build directories
 dist/
@@ -24,6 +24,3 @@ Thumbs.db
 
 # Coverage directory for testing (if applicable)
 coverage/
-
-# If you have other directories or files you want to ignore, specify them here
-# e.g., temp files or other sensitive configurations
